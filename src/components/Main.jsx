@@ -61,7 +61,7 @@ export default function Main() {
                             {/* Elemento 5: DC Power Visa */}
                             <div className="col d-flex align-items-center justify-content-center justify-content-lg-end">
                                 <img
-                                    src="../src/assets/img/buy-dc-power-visa.png"
+                                    src="../src/assets/img/buy-dc-power-visa.svg"
                                     alt="DC Power Visa"
                                     className="img-fluid me-3"
                                     style={{ height: '50px' }}
