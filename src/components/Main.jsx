@@ -1,11 +1,23 @@
 export default function Main() {
-    
-    return (
-        <main>
-            
-            <h1>Hello world</h1>
 
-        </main>
+    return (
+        <>
+
+            <main>
+
+                <section>
+                
+                </section>
+                <section>
+
+                </section>
+
+
+            </main>
+
+
+
+        </>
     )
 
 }
