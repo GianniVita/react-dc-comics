@@ -1,5 +1,5 @@
 export default function Footer() {
-    
+
     return (
         <>
             <footer className="bg-dark text-white pt-5 pb-3 footer-with-background">
@@ -58,33 +58,84 @@ export default function Footer() {
                             </ul>
                         </div>
 
-                        {/* Colonna 4 (spesso contiene il logo DC grande di sfondo) */}
+                        
                         <div className="col-md-3 d-none d-md-block">
-                            {/* Potresti inserire un grande logo DC qui se fa parte del design */}
-                            {/* <img src="../src/assets/img/dc-logo-bg.png" alt="DC Logo" className="img-fluid"/> */}
+                             <img src="../src/assets/img/dc-logo-bg.png" alt="DC Logo" className="img-fluid"/> 
                         </div>
 
                     </div>
                 </div>
 
-                <hr className="bg-secondary my-4" />
-
-                {/* Sezione del bottone "SIGN-UP NOW!" */}
-                <div className="container text-center">
-                    <button className="btn btn-outline-primary btn-lg fw-bold px-5 py-2">
-                        SIGN-UP NOW!
-                    </button>
-                </div>
             </footer>
-        
+          
+
+              
+            <div className="bottom-footer bg-dark py-4">
+                <div className="container">
+                    {/* d-flex e justify-content-between per allineare gli estremi */}
+                    <div className="d-flex justify-content-between align-items-center">
+
+                        {/* ⬅️ Pulsante "SIGN-UP NOW!" (Sinistra) */}
+                        <div>
+                            <button className="btn btn-outline-primary btn-lg fw-bold px-4 py-2">
+                                SIGN-UP NOW.
+                            </button>
+                        </div>
+
+                        {/* ➡️ Social Media (Destra) */}
+                        <div className="d-flex align-items-center">
+                            <h5 className="text-primary text-uppercase fw-bold m-0 me-3">
+                                FOLLOW US
+                            </h5>
+                            <ul className="list-unstyled d-flex m-0">
+
+                                {/* SOCIAL 1: Esempio di come usare le tue immagini */}
+                                <li className="ms-3">
+                                    <a href="#">
+                                        <img src="../src/assets/img/footer-facebook.png" alt="Facebook" style={{ height: '24px' }} />
+                                    </a>
+                                </li>
+
+                                {/* SOCIAL 2: Twitter */}
+                                <li className="ms-3">
+                                    <a href="#">
+                                        <img src="../src/assets/img/footer-twitter.png" alt="Twitter" style={{ height: '24px' }} />
+                                    </a>
+                                </li>
+
+                                {/* SOCIAL 3: YouTube */}
+                                <li className="ms-3">
+                                    <a href="#">
+                                        <img src="../src/assets/img/footer-youtube.png" alt="YouTube" style={{ height: '24px' }} />
+                                    </a>
+                                </li>
+
+                                {/* SOCIAL 4: Pinterest */}
+                                <li className="ms-3">
+                                    <a href="#">
+                                        <img src="../src/assets/img/footer-pinterest.png" alt="Pinterest" style={{ height: '24px' }} />
+                                    </a>
+                                </li>
+
+                                {/* SOCIAL 5: Periscope */}
+                                <li className="ms-3">
+                                    <a href="#">
+                                        <img src="../src/assets/img/footer-periscope.png" alt="Periscope" style={{ height: '24px' }} />
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
         </>
 
     )
 
 }
-        
-        
-        
-        
-        
-        
+
+
+
+
+

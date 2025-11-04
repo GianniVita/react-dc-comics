@@ -5,8 +5,8 @@ export default function Main() {
 
             <main className="">
                 
-                <section className="content bg-secondary p-5">
-                <h3>Content goes here</h3>
+                <section className="content text-white bg-dark p-5">
+                    <h3 className="ms-5">--&gt;Content goes here&lt;--</h3>
                 </section>
 
 
