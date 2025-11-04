@@ -3,5 +3,12 @@
 
 .content {
 
-  height: 200px;
+  height: 150px;
+}
+
+.footer-with-background {
+  background-image: url('../src/assets/img/footer-bg.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center right;
 }
