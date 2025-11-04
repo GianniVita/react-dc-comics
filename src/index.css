@@ -1,4 +1,7 @@
 @import url("bootstrap");
 
 
+.content {
 
+  height: 200px;
+}
