@@ -9,7 +9,6 @@ export default function Main() {
 
     <main className="">
      
-    <Cards/>
 
 
 
@@ -28,7 +27,7 @@ export default function Main() {
                                     alt="Digital Comics"
                                     className="img-fluid me-3"
                                     style={{ height: '50px' }} // Stile inline per controllare l'altezza dell'icona
-                                />
+                                    />
                                 <p className="text-white text-uppercase m-0 d-none d-md-block">Digital Comics</p>
                             </div>
 
@@ -39,7 +38,7 @@ export default function Main() {
                                     alt="DC Merchandise"
                                     className="img-fluid me-3"
                                     style={{ height: '50px' }}
-                                />
+                                    />
                                 <p className="text-white text-uppercase m-0 d-none d-md-block">DC Merchandise</p>
                             </div>
 
@@ -50,7 +49,7 @@ export default function Main() {
                                     alt="Subscription"
                                     className="img-fluid me-3"
                                     style={{ height: '50px' }}
-                                />
+                                    />
                                 <p className="text-white text-uppercase m-0 d-none d-md-block">Subscription</p>
                             </div>
 
@@ -61,7 +60,7 @@ export default function Main() {
                                     alt="Comic Shop Locator"
                                     className="img-fluid me-3"
                                     style={{ height: '50px' }}
-                                />
+                                    />
                                 <p className="text-white text-uppercase m-0 d-none d-md-block">Comic Shop Locator</p>
                             </div>
 
@@ -72,7 +71,7 @@ export default function Main() {
                                     alt="DC Power Visa"
                                     className="img-fluid me-3"
                                     style={{ height: '45px' }}
-                                />
+                                    />
                                 <p className="text-white text-uppercase m-0 d-none d-md-block">DC Power Visa</p>
                             </div>
 
@@ -80,6 +79,7 @@ export default function Main() {
                     </div>
                 </section>
 
+        <Cards/>
     </main>
 
 

@@ -25,7 +25,7 @@ const socials = [
     }
 ]
 
-const footLists = [
+const footListDcComics = [
     {
         item:"",
         text:"Characters"
@@ -40,11 +40,33 @@ const footLists = [
     },
     {
         item: "",
-        text: "Comics"
+        text: "TV"
     },
-    
-]
+    {
+        item: "",
+        text: "Games"
+    },
+    {
+        item: "",
+        text: "Video"
+    },
+    {
+        item: "",
+        text: "News"
+    },
 
+]
+const footListShop = [
+
+     {
+         item: "",
+         text: "Shop DC"
+     },
+     {
+         item: "",
+         text: "Shop DC Collectibles"
+     },
+ ]
 
    
  
@@ -62,40 +84,42 @@ return (
 
 
                         <h5 className="text-white text-uppercase fw-bold mb-3">DC COMICS</h5>
+                        <ul className="list-unstyled" >
                         {
-                            footLists.map((footList, index) =>  (
-                                <ul className="list-unstyled" key={index}>
-                                    <li>
-                                        <a href="" className="text-white-50 text-decoration-none">Characters</a>
-                                    </li> 
-                                </ul>
+                            footListDcComics.map((footList, index) =>  (
+                                <li key={index}>
+                                        <a href="" className="text-white-50 text-decoration-none ">{footList.text}</a>
+                                </li> 
                             ))
-
-                                                        
-
+                            
+                            
+                            
                         }
-
-
-
-
-                        <ul className="list-unstyled">
-                            <li>
-                                <a href="" className="text-white-50 text-decoration-none">Characters</a>
-                            </li>
-                            <li><a href="" className="text-white-50 text-decoration-none">Comics</a></li>
-                            <li><a href="" className="text-white-50 text-decoration-none">Movies</a></li>
-                            <li><a href="" className="text-white-50 text-decoration-none">TV</a></li>
-                            <li><a href="" className="text-white-50 text-decoration-none">Games</a></li>
-                            <li><a href="" className="text-white-50 text-decoration-none">Videos</a></li>
-                            <li><a href="" className="text-white-50 text-decoration-none">News</a></li>
                         </ul>
 
                         <h5 className="text-white text-uppercase fw-bold mt-4 mb-3">SHOP</h5>
                         <ul className="list-unstyled">
-                            <li><a href="/shop-dc" className="text-white-50 text-decoration-none">Shop DC</a></li>
-                            <li><a href="/shop-collectibles" className="text-white-50 text-decoration-none">Shop DC Collectibles</a></li>
+                            {
+                                footListShop.map((shopList, index) =>(
+                                    <li key={index}>
+                                        <a href="" className="text-white-50 text-decoration-none">{shopList.text}</a>
+                                    </li>
+
+
+                                ))
+                            }
+                            <ul/>   
                         </ul>
                     </div>
+
+
+
+                      
+
+
+
+
+                            
 
                     {/* Colonna 2: DC */}
                     <div className="col-6 col-md-3 mb-4">
