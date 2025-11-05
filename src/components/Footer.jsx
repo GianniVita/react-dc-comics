@@ -67,8 +67,74 @@ const footListShop = [
          text: "Shop DC Collectibles"
      },
  ]
-
-   
+const footListDc = [
+    {
+        item: "",
+        text: "Terms Of Use"
+    },
+    {
+        item: "",
+        text: "Privacy Policy (New)"
+    },
+    {
+        item: "",
+        text: "Ad Choices"
+    },
+    {
+        item: "",
+        text: "Advertising"
+    },
+    {
+        item: "",
+        text: "Jobs"
+    },
+    {
+        item: "",
+        text: "Subscriptions"
+    },
+    {
+        item: "",
+        text: "Talent Workshops"
+    },
+    {
+        item: "",
+        text: "CPSC Certificates"
+    },
+    {
+        item: "",
+        text: "Ratings"
+    },
+    {
+        item: "",
+        text: "Shop Help"
+    },
+    {
+        item: "",
+        text: "Contact Us"
+    },
+]
+const footListSites = [
+    {
+        item: "",
+        text: "DC"
+    },
+    {
+        item: "",
+        text: "MAD Magazine"
+    },
+    {
+        item: "",
+        text: "DC Kids"
+    },
+    {
+        item: "",
+        text: "DC Universe"
+    },
+    {
+        item: "",
+        text: "DC Power Visa"
+    },
+]
  
 
 
@@ -97,6 +163,8 @@ return (
                         }
                         </ul>
 
+{/* ------------------------------------------------------------------------------- */}
+
                         <h5 className="text-white text-uppercase fw-bold mt-4 mb-3">SHOP</h5>
                         <ul className="list-unstyled">
                             {
@@ -108,47 +176,46 @@ return (
 
                                 ))
                             }
-                            <ul/>   
+                              
                         </ul>
                     </div>
 
-
-
-                      
-
-
-
-
-                            
-
+{/* ------------------------------------------------------------------------------- */}
                     {/* Colonna 2: DC */}
                     <div className="col-6 col-md-3 mb-4">
                         <h5 className="text-white text-uppercase fw-bold mb-3">DC</h5>
                         <ul className="list-unstyled">
-                            <li><a href="/terms" className="text-white-50 text-decoration-none">Terms Of Use</a></li>
-                            <li><a href="/privacy" className="text-white-50 text-decoration-none">Privacy Policy (New)</a></li>
-                            <li><a href="/ad-choices" className="text-white-50 text-decoration-none">Ad Choices</a></li>
-                            <li><a href="/advertising" className="text-white-50 text-decoration-none">Advertising</a></li>
-                            <li><a href="/jobs" className="text-white-50 text-decoration-none">Jobs</a></li>
-                            <li><a href="/subscriptions" className="text-white-50 text-decoration-none">Subscriptions</a></li>
-                            <li><a href="/talent" className="text-white-50 text-decoration-none">Talent Workshops</a></li>
-                            <li><a href="/cpsc" className="text-white-50 text-decoration-none">CPSC Certificates</a></li>
-                            <li><a href="/ratings" className="text-white-50 text-decoration-none">Ratings</a></li>
-                            <li><a href="/shop-help" className="text-white-50 text-decoration-none">Shop Help</a></li>
-                            <li><a href="/contact" className="text-white-50 text-decoration-none">Contact Us</a></li>
+                            {
+                                footListDc.map((dcList, index) => (
+                                    <li key={index}>
+                                        <a href="" className="text-white-50 text-decoration-none">{dcList.text}</a>
+                                    </li>
+
+
+                                ))
+                            }
+
                         </ul>
                     </div>
+{/* ------------------------------------------------------------------------------- */}
+                     
 
                     {/* Colonna 3: SITES */}
                     <div className="col-12 col-md-3 mb-4">
                         <h5 className="text-white text-uppercase fw-bold mb-3">SITES</h5>
                         <ul className="list-unstyled">
-                            <li><a href="/dc-site" className="text-white-50 text-decoration-none">DC</a></li>
-                            <li><a href="/mad-magazine" className="text-white-50 text-decoration-none">MAD Magazine</a></li>
-                            <li><a href="/dc-kids" className="text-white-50 text-decoration-none">DC Kids</a></li>
-                            <li><a href="/dc-universe" className="text-white-50 text-decoration-none">DC Universe</a></li>
-                            <li><a href="/dc-power-visa" className="text-white-50 text-decoration-none">DC Power Visa</a></li>
+                            {
+                                footListSites.map((siteList, index) => (
+                                    <li key={index}>
+                                        <a href="" className="text-white-50 text-decoration-none">{siteList.text}</a>
+                                    </li>
+                                ))
+                            }
                         </ul>
+
+
+
+                       
                     </div>
 
                     
@@ -201,21 +268,3 @@ return (
 )
 
 }
-
-
-
-
-
-
-
-
-
-
-                               
-                               
-                               
-
-
-
-
-
