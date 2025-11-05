@@ -1,10 +1,7 @@
 @import url("bootstrap");
 
 
-.content {
 
-  height: 150px;
-}
 
 .footer-with-background {
   background-image: url('../src/assets/img/footer-bg.jpg');
