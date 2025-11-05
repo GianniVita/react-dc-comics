@@ -64,7 +64,7 @@ export default function Main() {
                                     src="../src/assets/img/buy-dc-power-visa.svg"
                                     alt="DC Power Visa"
                                     className="img-fluid me-3"
-                                    style={{ height: '50px' }}
+                                    style={{ height: '45px' }}
                                 />
                                 <p className="text-white text-uppercase m-0 d-none d-md-block">DC Power Visa</p>
                             </div>

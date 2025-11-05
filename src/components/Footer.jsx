@@ -60,7 +60,7 @@ export default function Footer() {
 
                         
                         <div className="col-md-3 d-none d-md-block">
-                             <img src="../src/assets/img/dc-logo-bg.png" alt="DC Logo" className="img-fluid"/> 
+                            <img src="../src/assets/img/dc-logo-bg.png" alt="DC Logo" className="img-fluid" style={{ height: '500px', width:'500px' }} /> 
                         </div>
 
                     </div>
