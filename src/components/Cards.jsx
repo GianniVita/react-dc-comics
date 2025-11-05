@@ -156,14 +156,9 @@ export default function Cards() {
     ];
 
 
-
-
-
-
-    return (
-        <>
-
-           
+   return (
+      
+      <>
                 <section className="content bg-dark p-5">
 
                     <div className="container text-center">
@@ -183,14 +178,9 @@ export default function Cards() {
                         </div>
                     </div>
                 </section>
-
-
-
-        
-
-
-
         </>
     )
 
 }
+
+           

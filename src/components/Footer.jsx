@@ -25,7 +25,25 @@ const socials = [
     }
 ]
 
-
+const footLists = [
+    {
+        item:"",
+        text:"Characters"
+    },
+    {
+        item: "",
+        text: "Comics"
+    },
+    {
+        item: "",
+        text: "Movies"
+    },
+    {
+        item: "",
+        text: "Comics"
+    },
+    
+]
 
 
    
@@ -41,10 +59,29 @@ return (
 
                     {/* Colonna 1: DC COMICS / SHOP */}
                     <div className="col-6 col-md-3 mb-4">
-                        {/* L'elemento IMG è stato rimosso da qui */}
+
+
                         <h5 className="text-white text-uppercase fw-bold mb-3">DC COMICS</h5>
+                        {
+                            footLists.map((footList, index) =>  (
+                                <ul className="list-unstyled" key={index}>
+                                    <li>
+                                        <a href="" className="text-white-50 text-decoration-none">Characters</a>
+                                    </li> 
+                                </ul>
+                            ))
+
+                                                        
+
+                        }
+
+
+
+
                         <ul className="list-unstyled">
-                            <li><a href="" className="text-white-50 text-decoration-none">Characters</a></li>
+                            <li>
+                                <a href="" className="text-white-50 text-decoration-none">Characters</a>
+                            </li>
                             <li><a href="" className="text-white-50 text-decoration-none">Comics</a></li>
                             <li><a href="" className="text-white-50 text-decoration-none">Movies</a></li>
                             <li><a href="" className="text-white-50 text-decoration-none">TV</a></li>
