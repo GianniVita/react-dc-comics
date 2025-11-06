@@ -1,4 +1,4 @@
-
+import DigitalEl from "./DigitalEl"
 export default function Main() {
 
 
@@ -13,17 +13,8 @@ export default function Main() {
                     <div className="container">
                         <div className="row justify-content-around align-items-center">
 
-                            {/* Elemento 1: Digital Comics */}
-                            <div className="col d-flex align-items-center justify-content-center justify-content-lg-start mb-3 mb-lg-0">
-                                <img
-                                    src="../src/assets/img/buy-comics-digital-comics.png"
-                                    alt="Digital Comics"
-                                    className="img-fluid me-3"
-                                    style={{ height: '50px' }} // Stile inline per controllare l'altezza dell'icona
-                                    />
-                                <p className="text-white text-uppercase m-0 d-none d-md-block">Digital Comics</p>
-                            </div>
-
+                            <DigitalEl />
+                            
                             {/* Elemento 2: DC Merchandise */}
                             <div className="col d-flex align-items-center justify-content-center mb-3 mb-lg-0">
                                 <img

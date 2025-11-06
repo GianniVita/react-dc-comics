@@ -4,7 +4,7 @@ import Header from "./components/Header"
 import Main from "./components/Main"
 import Cards from "./components/Cards"
 import Nav from "./components/Nav"
-import DigitalEl from "./components/DigitalEl" 
+
 
 
 
@@ -32,7 +32,7 @@ function App() {
     <>
       <Header nav={mainNavLinks} />
 
-      <DigitalEl />
+      
 
       <Main />
 

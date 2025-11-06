@@ -1,3 +1,5 @@
+import Card from "./Card";
+
 export default function Cards() {
 
     const comics = [
@@ -165,10 +167,11 @@ export default function Cards() {
                         <div className="row">
                             {
                                 comics.map((comic, index) => (
-                                    <div className="col-6 col-md-3 p-2" key={index}>
-                                        <img className="img-fluid comic-thumb" src={comic.thumb} alt="Img" />
+                                   
+                                <Card key={comic.id}  img={comic.thumb} title={comic.title}/>
 
-                                    </div>
+
+
                                 ))
 
                             }
