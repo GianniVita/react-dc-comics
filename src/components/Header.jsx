@@ -1,4 +1,4 @@
-export default function Header() {
+// export default function Header() {
 const nav = [
 
 "CHARACTERS",
