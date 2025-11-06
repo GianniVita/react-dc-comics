@@ -1,6 +1,6 @@
 
 
-export function Nav() {
+export default function Nav() {
     return (
         <div>
             {/* Passiamo l'array come prop al componente Hearder */}
