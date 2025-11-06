@@ -74,7 +74,7 @@ export default function Main() {
                     </div>
                 </section>
 
-        <Cards/>
+        
     </main>
 
         </>

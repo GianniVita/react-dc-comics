@@ -5,6 +5,20 @@ import Main from "./components/Main"
 import Cards from "./components/Cards"
 import Nav from "./components/Nav"
 
+const mainNavLinks = [
+  "CHARACTERS",
+  "COMICS",
+  "MOVIES",
+  "TV",
+  "GAMES",
+  "COLLECTTIBLES",
+  "VIDEOS",
+  "FANS",
+  "NEWS",
+  "SHOP"
+];
+
+
 
 export default App
 
@@ -13,11 +27,13 @@ function App() {
 
   return (
     <>
-      <Header />
+      <Header nav={mainNavLinks} />
 
       <Nav />
 
       <Main />
+
+      <Cards />
 
       <Footer />
 
