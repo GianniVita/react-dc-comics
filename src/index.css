@@ -19,3 +19,20 @@
   margin: 0 auto;
   border-radius: 8px;
 }
+
+.dc-logo-footer {
+
+  height: 500px;
+  width: auto;
+  
+}
+
+.col-md-3 .d-none .d-md-block {
+
+  height: 550px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+
+
+}
