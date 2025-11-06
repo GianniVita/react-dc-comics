@@ -1,7 +1,9 @@
-export default function DigitalEl ({}){
+export default function DigitalEl({ }) {
 
-    return(
+    return (
         // Elemento: Digital Comics
+<div className="row justify-content-around align-items-center">
+
         <div className="col d-flex align-items-center justify-content-center justify-content-lg-start mb-3 mb-lg-0">
             <img
                 src="../src/assets/img/buy-comics-digital-comics.png"
@@ -17,7 +19,7 @@ export default function DigitalEl ({}){
             alt="DC Merchandise"
             className="img-fluid me-3"
             style={{ height: '50px' }}
-        />
+            />
         <p className="text-white text-uppercase m-0 d-none d-md-block">DC Merchandise</p>
     </div>
 
@@ -28,7 +30,7 @@ export default function DigitalEl ({}){
             alt="Subscription"
             className="img-fluid me-3"
             style={{ height: '50px' }}
-        />
+            />
         <p className="text-white text-uppercase m-0 d-none d-md-block">Subscription</p>
     </div>
 
@@ -39,7 +41,7 @@ export default function DigitalEl ({}){
             alt="Comic Shop Locator"
             className="img-fluid me-3"
             style={{ height: '50px' }}
-        />
+            />
         <p className="text-white text-uppercase m-0 d-none d-md-block">Comic Shop Locator</p>
     </div>
 
@@ -50,20 +52,20 @@ export default function DigitalEl ({}){
             alt="DC Power Visa"
             className="img-fluid me-3"
             style={{ height: '45px' }}
-        />
+            />
         <p className="text-white text-uppercase m-0 d-none d-md-block">DC Power Visa</p>
     </div>
 
-
-
-
-
-
-
-
-
-
-
-
+</div>
     )
 }
+
+
+
+
+
+
+
+
+
+

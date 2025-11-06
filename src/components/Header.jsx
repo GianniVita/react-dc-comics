@@ -33,7 +33,7 @@ export default function Header({ nav }) {
                             {
                                 // Usiamo 'nav' che arriva dal prop
                                 nav.map((item, index) => (                                    
-                                    <MenuItem key={item} index={index}/>
+                                    <MenuItem item={item} index={index} key={index}/>
 
                                 ))
                             }

@@ -11,7 +11,7 @@ export default function Main() {
 
                 <section className="bg-primary py-5">
                     <div className="container">
-                        <div className="row justify-content-around align-items-center">
+                        <div>
 
                             <DigitalEl />
                            
