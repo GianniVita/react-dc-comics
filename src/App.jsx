@@ -37,7 +37,7 @@ const mainNavLinks = [
   "SHOP"
 ];
 
-export default function Header() {
+export function Header() {
   return (
     <div>
       {/* Passiamo l'array come prop al componente Hearder */}
